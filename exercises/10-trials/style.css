@@ -1,0 +1,61 @@
+#trial1 {
+  color: green;
+}
+
+#trial2 {
+  color: #F711F7;
+}
+
+#trial3-red {
+  color: red;
+}
+
+#trial3-gold {
+  color: goldenrod;
+}
+
+#trial3-blue {
+  color: blue;
+}
+
+#trial4 {
+  color: skyblue;
+}
+
+#trial5 {
+  color: rgb(255, 255, 0);
+}
+
+#trial6 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#trial7 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#trial8 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#trial9-heading {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#trial10-eyebrow {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#trial10-heading {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#trial10-subheading {
+  font-size: 24px;
+}
+

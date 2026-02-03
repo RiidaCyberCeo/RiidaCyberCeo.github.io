@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Playlists</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:1rem}
+    .container{max-width:900px;margin:0 auto}
+    h1{text-align:center}
+    .list{display:grid;gap:1rem;margin-top:1rem}
+    .playlist{padding:1rem;border-radius:8px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+    .meta{color:#666;font-size:.95rem}
+    .songs{margin-top:.5rem}
+    .song{padding:.25rem 0;border-bottom:1px solid #f0f0f0}
+    .song:last-child{border-bottom:none}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Playlists</h1>
+    <p style="text-align:center;color:#444">A few curated playlists — click a title to edit or expand.</p>
+
+    <section class="list" aria-label="Playlists">
+      <article class="playlist">
+        <h2><a href="#" style="color:inherit;text-decoration:none">Chill Lo-Fi</a></h2>
+        <div class="meta">Genre: Lo-Fi · Length: 45 min</div>
+        <div class="songs">
+          <div class="song">1. Evening Breeze — 3:20</div>
+          <div class="song">2. Study Lights — 4:05</div>
+          <div class="song">3. Night Walk — 3:42</div>
+        </div>
+      </article>
+
+      <article class="playlist">
+        <h2><a href="#" style="color:inherit;text-decoration:none">Upbeat Workout</a></h2>
+        <div class="meta">Genre: Pop / Electronic · Length: 60 min</div>
+        <div class="songs">
+          <div class="song">1. Running Wild — 3:30</div>
+          <div class="song">2. Push Harder — 3:12</div>
+          <div class="song">3. Finish Line — 4:01</div>
+        </div>
+      </article>
+
+      <article class="playlist">
+        <h2><a href="#" style="color:inherit;text-decoration:none">Classic Scores</a></h2>
+        <div class="meta">Genre: Soundtrack · Length: 70 min</div>
+        <div class="songs">
+          <div class="song">1. Dawn Theme — 5:10</div>
+          <div class="song">2. Horizon — 6:02</div>
+          <div class="song">3. Voyage — 4:45</div>
+        </div>
+      </article>
+    </section>
+
+    <footer style="text-align:center;margin-top:1.25rem;color:#666">Edit this page to add your own playlists and links.</footer>
+  </div>
+</body>
+</html>
