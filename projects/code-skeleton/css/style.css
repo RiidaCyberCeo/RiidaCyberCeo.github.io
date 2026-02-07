@@ -1,8 +1,36 @@
-* {
-    box-sizing: border-box;
+*.post-it {
+  display: inline-block;
+  width: 220px;
+  height: 260px;
+  margin: 24px;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  vertical-align: top;
+
+  background-color: #fff9a6;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-    margin: 0px;
-    font-family: sans-serif;
+/* Push Pin */
+.pin {
+  width: 14px;
+  height: 14px;
+  background-color: crimson;
+  border-radius: 50%;
+  margin-bottom: 10px;
+
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Color Variations */
+.yellow {
+  background-color: #fff9a6;
+}
+
+.pink {
+  background-color: #ffb6c1;
+}
+
+.blue {
+  background-color: #add8e6;
 }
