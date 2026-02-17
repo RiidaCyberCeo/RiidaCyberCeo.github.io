@@ -1,8 +1,86 @@
-* {
-    box-sizing: border-box;
-}
+/* =========================
+   PERFECT NAILS STYLESHEET
+   ========================= */
 
 body {
-    margin: 0px;
-    font-family: sans-serif;
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #0b1c2d;
+color: white;
 }
+
+/* ----- SECTIONS ----- */
+.section {
+width: 100%;
+padding: 80px 20px;
+}
+
+.dark-blue {
+background-color: #06162a;
+}
+
+.royal-blue {
+background-color: #0a2540;
+}
+
+.electric-blue {
+background-color: #0d3b66;
+}
+
+/* ----- LAYOUT ----- */
+.centered-column {
+max-width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+/* ----- HEADINGS ----- */
+h1 {
+font-family: 'Cookie', cursive;
+font-size: 4rem;
+margin-bottom: 10px;
+color: #4cc9f0;
+}
+
+h2 {
+font-size: 2rem;
+margin-bottom: 20px;
+color: #90dbf4;
+}
+
+/* ----- TEXT ----- */
+p {
+font-size: 1rem;
+line-height: 1.6;
+max-width: 700px;
+margin: 0 auto 30px;
+}
+
+/* ----- IMAGES ----- */
+img {
+width: 100%;
+max-width: 400px;
+margin: 30px 0;
+border-radius: 16px;
+box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* ----- BUTTONS ----- */
+.btn {
+display: inline-block;
+padding: 14px 30px;
+background-color: #0077ff;
+color: white;
+text-decoration: none;
+font-size: 1rem;
+border-radius: 18px;
+box-shadow: 0 8px 20px rgba(0, 119, 255, 0.4);
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+background-color: #4cc9f0;
+transform: translateY(-4px);
+}
+
+

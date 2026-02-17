@@ -1,75 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>Perfect Nails</title>
+    <title>Perfect Nails | Product Showcase</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&display=swap"
+      rel="stylesheet"
+    >
 
-    <!-- CSS FILE (THIS IS CRITICAL) -->
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b1c2d;
+    color: white;
+}
 
-<body>
+/* Sections */
+.section {
+    width: 100%;
+    padding: 80px 20px;
+}
 
-    <header class="hero">
-        <div class="container">
-            <h1 class="brand-name">Perfect Nails</h1>
-            <p>Professional nail supplies crafted for artists and salons.</p>
-            <a href="#" class="btn">Shop Supplies</a>
-        </div>
-    </header>
+.dark-blue {
+    background-color: #06162a;
+}
 
-    <section class="section section-one">
-        <div class="container">
-            <img src="images/acrylic-powder.jpg" alt="Acrylic nail powder">
-            <h2>Acrylic Powder</h2>
-            <p>
-                High-quality acrylic powders designed for smooth application,
-                strong adhesion, and long-lasting nail enhancements.
-            </p>
-            <a href="#" class="btn">View Powders</a>
-        </div>
-    </section>
+.royal-blue {
+    background-color: #0a2540;
+}
 
-    <section class="section section-two">
-        <div class="container">
-            <img src="images/nail-polish.jpg" alt="Nail polish colors">
-            <h2>Nail Polish</h2>
-            <p>
-                Richly pigmented nail polishes available in classic neutrals,
-                bold shades, and glossy finishes.
-            </p>
-            <a href="#" class="btn">Shop Colors</a>
-        </div>
-    </section>
+.electric-blue {
+    background-color: #0d3b66;
+}
 
-    <section class="section section-three">
-        <div class="container">
-            <img src="images/nail-brushes.jpg" alt="Professional nail brushes">
-            <h2>Brushes</h2>
-            <p>
-                Precision nail brushes crafted for acrylic application,
-                detailed designs, and flawless finishes.
-            </p>
-            <a href="#" class="btn">Explore Brushes</a>
-        </div>
-    </section>
+/* Centered column */
+.centered-column {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
 
-    <section class="section section-four">
-        <div class="container">
-            <img src="images/nail-tools.jpg" alt="Nail tools kit">
-            <h2>Nail Tools</h2>
-            <p>
-                Essential nail tools built for durability and performance,
-                from shaping and filing to cuticle care.
-            </p>
-            <a href="#" class="btn">Browse Tools</a>
-        </div>
-    </section>
+/* Headings */
+h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color: #4cc9f0;
+}
 
-</body>
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #90dbf4;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+/* Images */
+img {
+    width: 100%;
+    max-width: 400px;
+    margin: 30px 0;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 14px 30px;
+    background-color: #0077ff;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0, 119, 255, 0.4);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #4cc9f0;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(76, 201, 240, 0.6);
+}
+    </style>
+  </head>
+
+  <body>
+    <!-- HERO SECTION -->
+    <div class="section dark-blue">
+      <div class="centered-column">
+        <h1>Perfect Nails</h1>
+        <p>
+          High-quality nail products and services designed for bold,
+          confident styles. From acrylics to precision tools, Perfect
+          Nails delivers salon-level results every time.
+        </p>
+        <a href="#" class="btn">Explore Our Products</a>
+      </div>
+    </div>
+
+    <!-- SECTION 1 -->
+    <div class="section royal-blue">
+      <div class="centered-column">
+        <h2>Acrylic Powder Collection</h2>
+        <img
+          src="images/acrylic-nail-powder-colours-10g-acrylic-powder-nsi-australia-443758_384x384.webp"
+          alt="Acrylic nail powder"
+        >
+        <p>
+          Our premium acrylic powders provide strong adhesion and
+          smooth application for flawless custom sets.
+        </p>
+        <a href="#" class="btn">Shop Acrylics</a>
+      </div>
+    </div>
+
+    <!-- SECTION 2 -->
+    <div class="section electric-blue">
+      <div class="centered-column">
+        <h2>Gel Polish Line</h2>
+        <img
+          src="images/OIP (6).webp"
+          alt="Gel nail polish bottles"
+        >
+        <p>
+          Vibrant gel polishes that cure fast and stay glossy
+          with long-lasting wear.
+        </p>
+        <a href="#" class="btn">View Colors</a>
+      </div>
+    </div>
+
+    <!-- SECTION 3 -->
+    <div class="section royal-blue">
+      <div class="centered-column">
+        <h2>Professional Nail Tools</h2>
+        <img
+          src="images/OIP (7).webp"
+          alt="Nail brushes and tools"
+        >
+        <p>
+          Precision tools built for nail artists who value
+          control, comfort, and performance.
+        </p>
+        <a href="#" class="btn">Browse Tools</a>
+      </div>
+    </div>
+  </body>
 </html>
