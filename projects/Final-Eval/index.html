@@ -1,11 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Super Bowl LVIII Party</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap"
+    rel="stylesheet"
+  >
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #e0e0e0;
+  color: #111;
+}
+
+.page {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.host-names {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.6rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.date {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.team {
+  width: 40%;
+  padding: 15px;
+}
+
+.team-image {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.team-name {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.vs {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.address {
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+.rsvp-buttons {
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.yes {
+  background-color: #9e1b32;
+  color: #ffffff;
+}
+
+.no {
+  background-color: #ba0c2f;
+  color: #ffffff;
+}
+
+.questions {
+  font-size: 0.9rem;
+}
+</style>
+</head>
+
+<body>
+  <main class="page">
+    <p class="host-names">John and Jane Smith's</p>
+
+    <h1>
+      Super Bowl LVIII<br>
+      Extravaganza Party
+    </h1>
+
+    <p class="date">Sunday, Feb 11 2026 @ 6pm</p>
+
+    <section class="teams">
+      <div class="team">
+        <img
+          src="images/alabama logo.png"
+          alt="Alabama Crimson Tide Logo"
+          class="team-image"
+        >
+        <p class="team-name">Alabama Crimson Tide</p>
+      </div>
+
+      <div class="vs">VS</div>
+
+      <div class="team">
+        <img
+          src="images/georgia logo.jpg"
+          alt="Georgia Bulldogs Logo"
+          class="team-image"
+        >
+        <p class="team-name">Georgia Bulldogs</p>
+      </div>
+    </section>
+
+    <p class="description">
+      Join us for the Ultimate Super Bowl Sunday Bash!
+      We'll have hot food, cold drinks, and big screens.
+    </p>
+
+    <p class="address">
+      The party will be at 1234 Main St, Anytown, USA
+    </p>
+
+    <div class="rsvp-buttons">
+      <a href="#" class="btn yes">I can make it!</a>
+      <a href="#" class="btn no">I can't make it...</a>
+    </div>
+
+    <p class="questions">
+      Questions? Call 555.123.4567
+    </p>
+  </main>
+</body>
 </html>
